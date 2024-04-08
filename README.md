@@ -4,13 +4,13 @@
 </p>
 
 
-### 1. Introduccion:
+## 1. INTRODUCIÓN:
 El dia de hoy nos complace presentar nuestro proyecto, Stryker: un innovador juego educativo de plataformas 2D diseñado para sumergir a los jugadores en un viaje histórico único. Inspirado en la época del Holocausto, un período sombrío en la historia de la humanidad, Stryker no solo entretiene, sino que también educa de manera significativa. Nos enfocamos en desarrollar una experiencia que, a través de una narrativa envolvente y elementos interactivos, invite a los adolescentes a explorar los eventos y dilemas éticos de este período crítico de una manera accesible y atractiva. Nuestro objetivo es no solo transmitir conocimiento histórico, sino también fomentar la reflexión y el aprendizaje activo mientras los jugadores se sumergen en el emocionante mundo de Stryker.
 
-### 2. Problematica:
+## 2. PROBLEMÁTICA:
 La reserva hacia la historia entre los jóvenes, especialmente hacia eventos distantes en el tiempo como el Holocausto, plantea un gran desafío. Muchos adolescentes muestran poco interés en estos temas, lo que dificulta a los educadores transmitir la importancia y las lecciones de este período histórico crucial. Además, abordar el Holocausto en un entorno educativo se convierte en una tarea compleja debido a la sensibilidad y gravedad del tema. Los docentes se enfrentan a dificultades para enseñar sobre este evento de manera informativa, respetuosa y sensible hacia las experiencias de los sobrevivientes. Los métodos tradicionales de enseñanza pueden resultar ineficaces para involucrar a los adolescentes en temas históricos complejos como este, lo que subraya la necesidad de enfoques más innovadores y creativos. Cultivar la conciencia y la empatía entre los jóvenes con respecto al Holocausto y sus implicaciones históricas y éticas es fundamental, y un juego educativo podría ser una herramienta efectiva para lograr este objetivo al permitir a los jugadores explorar y reflexionar sobre las experiencias de las personas afectadas por este evento histórico.
 
-### 3. Aplicaciones similares:
+## 3. APLICACIONES SIMILARES:
 Las aplicaciones que buscan un similar objetivo son:
 - **CIVILIZATION VI**: Juego de estrategia por turnos que abarca la historia humana desde la antiguedad hasta las epocas modernas. Deberas construir tu propia civilizacion mientras experimentas varios acontesimientos historicos.
 
@@ -24,10 +24,10 @@ Las aplicaciones que buscan un similar objetivo son:
 <img src= "https://static01.nyt.com/images/2013/01/27/books/review/0127-Biersdorfer01/0127-Biersdorfer01-articleLarge.jpg?quality=75&auto=webp&disable=upscale" width = "600" center>
 </p>
 
-### 4. Proposito del proyecto:
+## 4. PROPÓSITO:
 El propósito del proyecto es estimular el interés de los jóvenes por la historia, alentándolos a aprender y reflexionar sobre las situaciones históricas, específicamente el Holocausto, con el fin de enseñar a más personas el verdadero propósito y la importancia de comprender la historia. El juego proporcionará una experiencia interactiva y envolvente que permitirá a los adolescentes aprender de manera activa y participativa sobre el Holocausto. Abordará la falta de interés de los jóvenes mediante una aproximación creativa y atractiva que mantendrá su compromiso con el material educativo, lo que podría llevar a una mayor retención de la información. Además, fomentará la empatía y la comprensión al sumergir a los jugadores en la narrativa del juego y las interacciones con personajes y situaciones relacionadas con el Holocausto. Al enfrentar dilemas éticos y morales dentro del juego, se desafiará a los jugadores a reflexionar sobre las decisiones tomadas durante el Holocausto y considerar las implicaciones de esas decisiones, promoviendo así el desarrollo del pensamiento crítico. Por último, el juego educativo no solo enseñará a los adolescentes sobre el Holocausto, sino que también les recordará la importancia de recordar y conmemorar este evento histórico para evitar que algo similar ocurra en el futuro.
 
-### 5. Tecnologias Usadas:
+## 5. TECNOLOGIAS USADAS:
 Las tecnologias que usaremos para nuestro proyecto son:
 
 - **Unity**: un motor grafico para el desarrollo de videojuegos que permite a los desarrolladores crear experiencias interactivas en 2D y 3D para una variedad de plataformas, incluyendo PC, consolas, dispositivos móviles y realidad virtual.
@@ -42,7 +42,7 @@ Las tecnologias que usaremos para nuestro proyecto son:
 <img src= "https://niixer.com/wp-content/uploads/2020/11/csharp-800x445.jpg" width = "600" center>
 </p>
 
-### 6. Caracteristicas:
+## 6. CARACTERISTICAS DEL PROYECTO:
 Las caracteristicas son las siguientes:
 - El juego se desarrollará en un entorno de plataformas 2D.
 
@@ -65,7 +65,7 @@ Las caracteristicas son las siguientes:
 - Se buscará crear conciencia sobre la importancia de recordar y conmemorar eventos históricos como el Holocausto.
 
 
-### 7. REQUISITOS FUNCIONALES
+## 7. REQUISITOS FUNCIONALES
 
 ### RF1: Iniciar un nuevo juego
 - **Descripción:** El usuario debe poder iniciar un nuevo juego desde el menú principal.
@@ -154,7 +154,7 @@ Las caracteristicas son las siguientes:
   - El puntaje acumulado afectará las recompensas y desbloqueables disponibles para el jugador a medida que avanza en la historia.
 
 
-### 8. REQUISITOS NO FUNCIONALES
+## 8. REQUISITOS NO FUNCIONALES
 ### RNF1: Usabilidad
 - El juego debe ser intuitivo y fácil de entender para adolescentes de secundaria, con una interfaz de usuario clara y navegación sencilla.
 
@@ -191,13 +191,13 @@ Las caracteristicas son las siguientes:
 ### RNF12: Consumo de Recursos
 - El juego debe optimizar el uso de recursos del sistema, como la memoria RAM, la CPU y el espacio de almacenamiento, para garantizar un rendimiento óptimo en una variedad de dispositivos.
 
-### 9. DIAGRAMA DE ENTIDAD - RELACIÓN
+## 9. DIAGRAMA DE ENTIDAD - RELACIÓN
 [![Diagrama-Entidad-Relaci-n-Stryker-drawio-1.png](https://i.postimg.cc/d0DRdWf6/Diagrama-Entidad-Relaci-n-Stryker-drawio-1.png)](https://postimg.cc/hJW7R0cQ)
 
-### 10. DIAGRAMA DE CASOS DE USO
+## 10. DIAGRAMA DE CASOS DE USO
 [![Diagrama-de-Casos-de-Uso-drawio-1.png](https://i.postimg.cc/hGFd6CY2/Diagrama-de-Casos-de-Uso-drawio-1.png)](https://postimg.cc/hXrv70cm)
 
-### 11. MODELO DE DATOS SQL
+## 11. MODELO DE DATOS SQL
 ```sql
 create table question {
     questionID int primary key,
@@ -239,17 +239,49 @@ create table chapter {
     playerID int references player(playerID)
 }
 ```
-### 12. DIAGRAMA DEL MODELO DE DATOS
+## 12. DIAGRAMA DEL MODELO DE DATOS
 [![Untitled.png](https://i.postimg.cc/WbD9L18S/Untitled.png)](https://postimg.cc/Vd89X13b)
 
-### 13. MOCKUPS
+## 13. MOCKUPS
 ### 13.1 Inicio de Sesión
 ### 13.2 Crear cuenta
 ### 13.3 Menu de inicio
 ### 13.4 Selección de capítulos
 ### 13.5 Configuracion del juego
 ### 13.6 Tutorial de inicio
+[![Mockup1.png](https://i.postimg.cc/fLfQ0nbt/Mockup1.png)](https://postimg.cc/DJ0MtNLn)
+En la imagen anterior, se presenta el tutorial inicial diseñado para nuestro juego. Para acceder a esta función, basta con iniciar un nuevo juego, lo cual desencadenará la apertura automática de la ventana del tutorial. Este componente tiene como objetivo principal instruir al jugador sobre las teclas necesarias para controlar al personaje. Las teclas que se emplearán son las siguientes:
+
+<div align="center">
+  
+|    TECLA    |      MOVIMIENTO      |
+|:-----------:|:--------------------:|
+| ↑           | da un salto para arriba |
+| ←           | camina hacia la izquierda |
+| →           | camina hacia la derecha |
+| z           | sirve para correr    |
+| x           | ataca al oponente    |
+| c           | hace un dash          |
+
+</div>
+
 ### 13.7 Interfaz del juego
+[![Mockup2.png](https://i.postimg.cc/NGbwscVZ/Mockup2.png)](https://postimg.cc/WtDy8Qs7)
+Este es un diseño inicial de como se va a ver el juego en si, entre las principales cosas que va a ver en la interfaz del juego se encuentra:
+- El puntaje o score acumulado
+- La vida del personaje
+- Los enemigos (si es que hay)
+- Los obstaculos
+- El personaje
+
 ### 13.8 Score al finalizar nivel
+[![Mockup3.png](https://i.postimg.cc/sDXC1LCx/Mockup3.png)](https://postimg.cc/3WPccnRQ)
+Al finalizar tanto un nivel como el capítulo, aparecerá un apartado en donde te mostrará el puntaje total que el jugador a acumulado hasta ahora, cabe mencionar que el score no se va a ver afectado al pasar el nivel, o al cambiar el capítulo, es decir, que si el jugador pasa del nivel 1 al 2, o del capítulo 1 al 2 el score se va a seguir manteniendo hasta el final del juego.
+
 ### 13.9 Cuestionario
+[![Mockup4.png](https://i.postimg.cc/sxfdY6Bn/Mockup4.png)](https://postimg.cc/njWPZ1G7)
+Al finalizar el juego como tal, aparecerá el cuestionario en donde el jugador va a tener que responder correctamente según de lo que a aprendido a lo largo de todo el juego. Cabe mencionar que, el objetivo principal del cuestionario es medir el nivel aprendizaje del jugador que se dio a cabo al pasar cada nivel y al descubrir poco a poco la historia del juego.
+
 ### 13.10 Puntaje del cuestionario final
+[![Mockup5.png](https://i.postimg.cc/d3WM42rJ/Mockup5.png)](https://postimg.cc/K3gsYg0W)
+Por último, se le va a dar el resultado final del cuestionario, en donde se le mostrará al jugador el puntaje total que tuvo mediante un slide scrollbar y la cantidad de respuestas acertadas a comparación de las respuestas totales. En este apartado, el jugador podrá saber su capacidad de aprendizaje a la vez que nosotros podremos saber si realmente funcionó o no la mecánica de aprendizaje que implementamos en este juego.
