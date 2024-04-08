@@ -241,3 +241,15 @@ create table chapter {
 ```
 ### 12. DIAGRAMA DEL MODELO DE DATOS
 [![Untitled.png](https://i.postimg.cc/WbD9L18S/Untitled.png)](https://postimg.cc/Vd89X13b)
+
+### 13. MOCKUPS
+### 13.1 Inicio de Sesión
+### 13.2 Crear cuenta
+### 13.3 Menu de inicio
+### 13.4 Selección de capítulos
+### 13.5 Configuracion del juego
+### 13.6 Tutorial de inicio
+### 13.7 Interfaz del juego
+### 13.8 Score al finalizar nivel
+### 13.9 Cuestionario
+### 13.10 Puntaje del cuestionario final
