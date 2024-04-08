@@ -192,7 +192,52 @@ Las caracteristicas son las siguientes:
 - El juego debe optimizar el uso de recursos del sistema, como la memoria RAM, la CPU y el espacio de almacenamiento, para garantizar un rendimiento óptimo en una variedad de dispositivos.
 
 ### 9. DIAGRAMA DE ENTIDAD - RELACIÓN
-[![Diagrama-Entidad-Relaci-n-Stryker-drawio.png](https://i.postimg.cc/RV7sBNbh/Diagrama-Entidad-Relaci-n-Stryker-drawio.png)](https://postimg.cc/56tq5NJW)
+[![Diagrama-Entidad-Relaci-n-Stryker-drawio-1.png](https://i.postimg.cc/d0DRdWf6/Diagrama-Entidad-Relaci-n-Stryker-drawio-1.png)](https://postimg.cc/hJW7R0cQ)
 
 ### 10. DIAGRAMA DE CASOS DE USO
 [![Diagrama-de-Casos-de-Uso-drawio-1.png](https://i.postimg.cc/hGFd6CY2/Diagrama-de-Casos-de-Uso-drawio-1.png)](https://postimg.cc/hXrv70cm)
+
+### 11. MODELO DE DATOS SQL
+```sql
+create table question {
+    questionID int primary key,
+    textQuestion varchar(100),
+    playerID int references player(playerID)
+}
+
+create table answer {
+    answerID int primary key,
+    answer bool,
+    answerText varchar(100),
+    questionID int references question(questionID),
+    scoreValue int references score(scoreValue)
+}
+
+create table player {
+    playerID int primary key,
+    playerName varchar(50),
+    playerPassword varchar(50)
+}
+
+create table enemie {
+    enemieID int primary key,
+    enemieName varchar(50),
+    playerID int references player(playerID)    
+}
+
+create table score {
+    scoreID int primary key,
+    scoreValue int,
+    playerID int references player(playerID),
+    chapterID int references chapter(chapterID)
+}
+
+create table chapter {
+    chapterID int primary key,
+    chapterName varchar(20),
+    description varchar(100),
+    playerID int references player(playerID)
+}
+```
+### 12. DIAGRAMA DEL MODELO DE DATOS
+[![Untitled.png](https://i.postimg.cc/WbD9L18S/Untitled.png)](https://postimg.cc/Vd89X13b)
