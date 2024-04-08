@@ -195,4 +195,4 @@ Las caracteristicas son las siguientes:
 [![Diagrama-Entidad-Relaci-n-Stryker-drawio.png](https://i.postimg.cc/RV7sBNbh/Diagrama-Entidad-Relaci-n-Stryker-drawio.png)](https://postimg.cc/56tq5NJW)
 
 ### 10. DIAGRAMA DE CASOS DE USO
-[Diagrama-de-Casos-de-Uso-drawio-1.png](https://postimg.cc/hXrv70cm)
+[![Diagrama-de-Casos-de-Uso-drawio-1.png](https://i.postimg.cc/hGFd6CY2/Diagrama-de-Casos-de-Uso-drawio-1.png)](https://postimg.cc/hXrv70cm)
