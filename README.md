@@ -244,7 +244,11 @@ create table chapter {
 
 ## 13. MOCKUPS
 ### 13.1 Inicio de Sesión
+[![Mockup-B.png](https://i.postimg.cc/BnRwQVQ7/Mockup-B.png)](https://postimg.cc/hXb02MmV)
+Mostraremos al iniciar el programa una pantalla de inicio de seccion, donde podras poner tu cuenta ya creada con anticipacion, esto nos permite controlar las capacidades
+de nuestros usuarios, viendo cuales tienen mejor rendimiento entre todos y quienes no, ademas se mostraran tus logros que has conseguido en la cuenta creada
 ### 13.2 Crear cuenta
+[![Mockup-A.png](https://i.postimg.cc/6Q35tTqf/Mockup-A.png)](https://postimg.cc/WdBP7NMd)
 ### 13.3 Menu de inicio
 ### 13.4 Selección de capítulos
 ### 13.5 Configuracion del juego
