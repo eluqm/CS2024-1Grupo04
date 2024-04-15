@@ -289,7 +289,7 @@ Este es un diseño inicial de como se va a ver el juego en si, entre las princip
 - El personaje
 
 ### 13.8 Score al finalizar nivel
-[![Mockup3.png](https://i.postimg.cc/sDXC1LCx/Mockup3.png)](https://postimg.cc/3WPccnRQ)
+[![Mockup3.png](https://i.postimg.cc/pdHX4xnP/Mockup3.png)](https://postimg.cc/75KkJFVR)
 Al finalizar tanto un nivel como el capítulo, aparecerá un apartado en donde te mostrará el puntaje total que el jugador a acumulado hasta ahora, cabe mencionar que el score no se va a ver afectado al pasar el nivel, o al cambiar el capítulo, es decir, que si el jugador pasa del nivel 1 al 2, o del capítulo 1 al 2 el score se va a seguir manteniendo hasta el final del juego.
 
 ### 13.9 Cuestionario
