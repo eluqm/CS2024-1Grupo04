@@ -249,9 +249,19 @@ Mostraremos al iniciar el programa una pantalla de inicio de seccion, donde podr
 de nuestros usuarios, viendo cuales tienen mejor rendimiento entre todos y quienes no, ademas se mostraran tus logros que has conseguido en la cuenta creada
 ### 13.2 Crear cuenta
 [![Mockup-A.png](https://i.postimg.cc/6Q35tTqf/Mockup-A.png)](https://postimg.cc/WdBP7NMd)
+En el caso que el usuario no tenga una cuenta, debera crear una para poder acceder a su puntuacion, logros y beneficios a la hora de progresar en el juego, para esto tendras que
+escribir un correo y contraseña del usuario, para asi culminar el registro
 ### 13.3 Menu de inicio
+[![Mockup-C.png](https://i.postimg.cc/T2yB70Hd/Mockup-C.png)](https://postimg.cc/z3rd3Cr6)
+Luego de la creacion de la cuenta o logueo del usuario, ingresara a la pantalla de inicio donde nos mostraran un fondo referente al proposito del juego, junto al titulo y algunos botones como el de comenzar, el de opciones y el de salir
 ### 13.4 Selección de capítulos
+[![Mockup-D.png](https://i.postimg.cc/VLQZ78Cg/Mockup-D.png)](https://postimg.cc/0rnCQhZK)
+Al seleccionar el boton de start, te dirigiras al menu de capitulos, donde podras seleccionar uno de los capitulos el cual deseas jugar, cabe resaltar que si recien inicias
+jugando, tendras que desbloquear los otros capitulos con tu progreso
 ### 13.5 Configuracion del juego
+[![Mockup-E.png](https://i.postimg.cc/59vnQRRC/Mockup-E.png)](https://postimg.cc/K4GndJFG)
+Al ingresar al boton de option, este lo dirigira al menu de opciones, donde podras cambiarle el volumen, resolucion, lenguaje, etc. A la comodidad del usuario, las opciones solo
+son determinadas por cada usuario y no se comparte entre estos.
 ### 13.6 Tutorial de inicio
 [![Mockup1.png](https://i.postimg.cc/fLfQ0nbt/Mockup1.png)](https://postimg.cc/DJ0MtNLn)
 En la imagen anterior, se presenta el tutorial inicial diseñado para nuestro juego. Para acceder a esta función, basta con iniciar un nuevo juego, lo cual desencadenará la apertura automática de la ventana del tutorial. Este componente tiene como objetivo principal instruir al jugador sobre las teclas necesarias para controlar al personaje. Las teclas que se emplearán son las siguientes:
