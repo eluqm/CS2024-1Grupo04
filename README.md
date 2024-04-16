@@ -67,92 +67,23 @@ Las caracteristicas son las siguientes:
 
 ## 7. REQUISITOS FUNCIONALES
 
-### RF1: Iniciar un nuevo juego
-- **Descripción:** El usuario debe poder iniciar un nuevo juego desde el menú principal.
-- **Criterios de aceptación:**
-  - Al seleccionar la opción "Start", se inicia un nuevo juego desde el primer nivel.
-
-### RF2: Salir del juego
-- **Descripción:** El usuario debe poder salir del juego desde el menú principal.
-- **Criterios de aceptación:**
-  - En el menú de inicio, al seleccionar la opción "Exit", el juego se cerrará automáticamente.
-
-### RF3: Volver al menú principal
-- **Descripción:** El usuario debe poder volver al menú principal aunque esté en una partida.
-- **Criterios de aceptación:**
-  - Durante cualquier nivel del juego, habrá una opción para regresar al menú principal.
-  - Al seleccionar "Volver al menú principal", el progreso del nivel actual se perderá.
-
-### RF4: Temporizador
-- **Descripción:** El sistema debe tener un temporizador descendente que represente el tiempo disponible para pasar el nivel.
-- **Criterios de aceptación:**
-  - Cuando el tiempo se agote, el usuario perderá automáticamente y el nivel se reiniciará.
-
-### RF5: Puntaje
-- **Descripción:** El sistema debe realizar un seguimiento del puntaje del usuario en función de los enemigos eliminados y los objetos recolectados.
-- **Criterios de aceptación:**
-  - El puntaje debe mantenerse a lo largo de los niveles.
-  - Se deducirá un 10% del puntaje del usuario cada vez que pierda.
-  - Al final, se calculará el puntaje total para determinar las recompensas del usuario.
-
-### RF6: Progreso de la historia a través de capítulos
-- **Descripción:** El usuario debe poder avanzar en la historia a través de diferentes capítulos.
-- **Criterios de aceptación:**
-  - Se contará con tres capítulos: "Exclusión", "Los guetos" y "Exterminio".
-
-### RF7: Cuestionario Final
-- **Descripción:** El usuario debe poder responder un cuestionario al final del juego.
-- **Criterios de aceptación:**
-  - Al terminar el juego, se presentará al usuario un cuestionario sobre la historia del Holocausto.
-  - El usuario seleccionará las respuestas según su conocimiento.
-  - Al final, se proporcionará una calificación final y se otorgarán recompensas correspondientes.
-
-### RF8: Conversación con personajes
-- **Descripción:** El usuario debe poder dialogar con ciertos personajes para obtener información adicional sobre la historia.
-- **Criterios de aceptación:**
-  - Al estar cerca de un personaje, se podrá interactuar con él de forma sencilla.
-  - Solo algunos personajes tendrán esta función de diálogo.
-
-### RF9: Movilidad del jugador
-- **Descripción:** El usuario debe poder mover al personaje principal dentro del entorno del juego.
-- **Criterios de aceptación:**
-  - El usuario podrá mover al personaje hacia adelante y hacia atrás utilizando las teclas de flecha correspondientes, y saltar con la flecha hacia arriba.
-
-### RF10: Modo combate
-- **Descripción:** El usuario debe poder atacar a los enemigos dentro del juego.
-- **Criterios de aceptación:**
-  - Las teclas Z (ataque), X (dash) y C (invulnerabilidad temporal) serán utilizadas para las acciones de combate.
-  - La invulnerabilidad durará un tiempo limitado.
-
-### RF11:  Sistema de Guardado de Juego
-- **Descripción:** El usuario debe poder guardar su progreso
-- **Criterios de aceptación:**
-  - Una vez que el usuario pasé de capítulo se guardará automaticamente su progreso dependiendo el capítulo en el que esta.
-
-### RF12:  Sistema de Guardado de Juego
-- **Descripción:** El usuario debe poder iniciar su partida desde el capítulo que se quedo.
-- **Criterios de aceptación:**
-  - Si el usuario termina un capítulo y quiere continuar después, puede salir del juego y este se guardara dependiendo el capitulo donde se haya quedado, y al iniciar otra vez el juego, habrá un apartado donde podrá elegir el capítulo donde se quedo.
-
-### RF13: Tutorial Interactivo
-- **Descripción:** El juego debe proporcionar un tutorial interactivo para guiar al jugador a través de los controles y mecánicas básicas.
-- **Criterios de aceptación:**
-  - El tutorial estará disponible al inicio del juego y será accesible desde el menú principal en cualquier momento.
-  - El tutorial explicará de manera clara y concisa cómo moverse, interactuar con objetos, combatir enemigos, etc.
-
-### RF14: Opciones de Configuración
-- **Descripción:** El usuario debe poder personalizar ciertas opciones de configuración del juego.
-- **Criterios de aceptación:**
-  - Se proporcionarán opciones para ajustar el volumen de la música y los efectos de sonido, la resolución de pantalla, los controles, etc.
-  - Los cambios de configuración se guardarán y aplicarán automáticamente en futuras sesiones de juego.
-
-### RF15: Continuidad del Puntaje entre Capítulos
-- **Descripción:** El juego debe mantener el puntaje acumulado del jugador a medida que avanza a través de los diferentes capítulos.
-- **Criterios de aceptación:**
-  - Al completar un capítulo, el puntaje total del jugador se guardará y se llevará al siguiente capítulo.
-  - El puntaje acumulado se mostrará al comienzo de cada nuevo capítulo para que el jugador pueda ver su progreso continuo.
-  - El puntaje acumulado afectará las recompensas y desbloqueables disponibles para el jugador a medida que avanza en la historia.
-
+| Número | Requisito                              | Descripción                                                                                     | Criterios de Aceptación                                                                                    |
+|--------|----------------------------------------|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| RF1    | Iniciar un nuevo juego                 | El usuario debe poder iniciar un nuevo juego desde el menú principal.                            | Al seleccionar la opción "Start", se inicia un nuevo juego desde el primer nivel.                         |
+| RF2    | Salir del juego                        | El usuario debe poder salir del juego desde el menú principal.                                    | En el menú de inicio, al seleccionar la opción "Exit", el juego se cerrará automáticamente.                |
+| RF3    | Volver al menú principal               | El usuario debe poder volver al menú principal aunque esté en una partida.                         | Durante cualquier nivel del juego, habrá una opción para regresar al menú principal. Al seleccionar "Volver al menú principal", el progreso del nivel actual se perderá. |
+| RF4    | Temporizador                           | El sistema debe tener un temporizador descendente que represente el tiempo disponible para pasar el nivel. | Cuando el tiempo se agote, el usuario perderá automáticamente y el nivel se reiniciará.                |
+| RF5    | Puntaje                                | El sistema debe realizar un seguimiento del puntaje del usuario en función de los enemigos eliminados y los objetos recolectados. | El puntaje debe mantenerse a lo largo de los niveles. Se deducirá un 10% del puntaje del usuario cada vez que pierda. - Al final, se calculará el puntaje total para determinar las recompensas del usuario. |
+| RF6    | Progreso de la historia a través de capítulos | El usuario debe poder avanzar en la historia a través de diferentes capítulos.             | Se contará con tres capítulos: "Exclusión", "Los guetos" y "Exterminio".                                |
+| RF7    | Cuestionario Final                     | El usuario debe poder responder un cuestionario al final del juego.                               | Al terminar el juego, se presentará al usuario un cuestionario sobre la historia del Holocausto. - El usuario seleccionará las respuestas según su conocimiento. - Al final, se proporcionará una calificación final y se otorgarán recompensas correspondientes. |
+| RF8    | Conversación con personajes            | El usuario debe poder dialogar con ciertos personajes para obtener información adicional sobre la historia. | Al estar cerca de un personaje, se podrá interactuar con él de forma sencilla. Solo algunos personajes tendrán esta función de diálogo. |
+| RF9    | Movilidad del jugador                  | El usuario debe poder mover al personaje principal dentro del entorno del juego.                  | El usuario podrá mover al personaje hacia adelante y hacia atrás utilizando las teclas de flecha correspondientes, y saltar con la flecha hacia arriba. |
+| RF10   | Modo combate                           | El usuario debe poder atacar a los enemigos dentro del juego.                                      | Las teclas Z (ataque), X (dash) y C (invulnerabilidad temporal) serán utilizadas para las acciones de combate. - La invulnerabilidad durará un tiempo limitado. |
+| RF11   | Sistema de Guardado de Juego           | El usuario debe poder guardar su progreso.                                                         | Una vez que el usuario pase de capítulo, se guardará automáticamente su progreso dependiendo del capítulo en el que esté. |
+| RF12   | Sistema de Carga de Juego              | El usuario debe poder iniciar su partida desde el capítulo en el que se quedó.                    | Si el usuario termina un capítulo y quiere continuar después, puede salir del juego y este se guardará dependiendo del capítulo en el que se haya quedado. Al iniciar otra vez el juego, habrá un apartado donde podrá elegir el capítulo en el que se quedó. |
+| RF13   | Tutorial Interactivo                   | El juego debe proporcionar un tutorial interactivo para guiar al jugador a través de los controles y mecánicas básicas. | El tutorial estará disponible al inicio del juego y será accesible desde el menú principal en cualquier momento. El tutorial explicará de manera clara y concisa cómo moverse, interactuar con objetos, combatir enemigos, etc. |
+| RF14   | Opciones de Configuración              | El usuario debe poder personalizar ciertas opciones de configuración del juego.                    | Se proporcionarán opciones para ajustar el volumen de la música y los efectos de sonido, la resolución de pantalla, los controles, etc. Los cambios de configuración se guardarán y aplicarán automáticamente en futuras sesiones de juego. |
+| RF15   | Continuidad del Puntaje entre Capítulos| El juego debe mantener el puntaje acumulado del jugador a medida que avanza a través de los diferentes capítulos. | Al completar un capítulo, el puntaje total del jugador se guardará y se llevará al siguiente capítulo. - El puntaje acumulado se mostrará al comienzo de cada nuevo capítulo para que el jugador pueda ver su progreso continuo. El puntaje acumulado afectará las recompensas y desbloqueables disponibles para el jugador a medida que avanza en la historia. |
 
 ## 8. REQUISITOS NO FUNCIONALES
 ### RNF1: Usabilidad
