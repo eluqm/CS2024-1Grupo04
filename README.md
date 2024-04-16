@@ -241,23 +241,26 @@ create table chapter (
 ```
 ## 12. DIAGRAMA DEL MODELO DE DATOS
 [![Modelo-de-Datos.png](https://i.postimg.cc/pThScQJ5/Modelo-de-Datos.png)](https://postimg.cc/jwTvL79R)
+En este diagrama realizado en el aplicativo de DBeaver con la base de datos postgress, mostramos nuestras tablas o puntos tomados para el almacenamiento de datos como el score, los chapter,
+los enemigos, los players, el cuestionario y por ultimo las respuestas. Cada uno de estos datos son importantes para la indicacion del desarrollo o procedimiento del usuario mientras destaca
+sus habilidades en el juego.
 
 ## 13. MOCKUPS
 ### 13.1 Inicio de Sesión
 [![Mockup-B.png](https://i.postimg.cc/BnRwQVQ7/Mockup-B.png)](https://postimg.cc/hXb02MmV)
 Mostraremos al iniciar el programa una pantalla de inicio de seccion, donde podras poner tu cuenta ya creada con anticipacion, esto nos permite controlar las capacidades
-de nuestros usuarios, viendo cuales tienen mejor rendimiento entre todos y quienes no, ademas se mostraran tus logros que has conseguido en la cuenta creada
+de nuestros usuarios, viendo cuales tienen mejor rendimiento entre todos y quienes no, ademas se mostraran tus logros que has conseguido en la cuenta creada.
 ### 13.2 Crear cuenta
 [![Mockup-A.png](https://i.postimg.cc/6Q35tTqf/Mockup-A.png)](https://postimg.cc/WdBP7NMd)
 En el caso que el usuario no tenga una cuenta, debera crear una para poder acceder a su puntuacion, logros y beneficios a la hora de progresar en el juego, para esto tendras que
-escribir un correo y contraseña del usuario, para asi culminar el registro
+escribir un correo y contraseña del usuario, para asi culminar el registro.
 ### 13.3 Menu de inicio
 [![Mockup-C.png](https://i.postimg.cc/T2yB70Hd/Mockup-C.png)](https://postimg.cc/z3rd3Cr6)
-Luego de la creacion de la cuenta o logueo del usuario, ingresara a la pantalla de inicio donde nos mostraran un fondo referente al proposito del juego, junto al titulo y algunos botones como el de comenzar, el de opciones y el de salir
+Luego de la creacion de la cuenta o logueo del usuario, ingresara a la pantalla de inicio donde nos mostraran un fondo referente al proposito del juego, junto al titulo y algunos botones como el de comenzar, el de opciones y el de salir.
 ### 13.4 Selección de capítulos
 [![Mockup-D.png](https://i.postimg.cc/VLQZ78Cg/Mockup-D.png)](https://postimg.cc/0rnCQhZK)
 Al seleccionar el boton de start, te dirigiras al menu de capitulos, donde podras seleccionar uno de los capitulos el cual deseas jugar, cabe resaltar que si recien inicias
-jugando, tendras que desbloquear los otros capitulos con tu progreso
+jugando, tendras que desbloquear los otros capitulos con tu progreso.
 ### 13.5 Configuracion del juego
 [![Mockup-E.png](https://i.postimg.cc/59vnQRRC/Mockup-E.png)](https://postimg.cc/K4GndJFG)
 Al ingresar al boton de option, este lo dirigira al menu de opciones, donde podras cambiarle el volumen, resolucion, lenguaje, etc. A la comodidad del usuario, las opciones solo
