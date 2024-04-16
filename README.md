@@ -86,42 +86,20 @@ Las caracteristicas son las siguientes:
 | RF15   | Continuidad del Puntaje entre Capítulos| El juego debe mantener el puntaje acumulado del jugador a medida que avanza a través de los diferentes capítulos. | Al completar un capítulo, el puntaje total del jugador se guardará y se llevará al siguiente capítulo. - El puntaje acumulado se mostrará al comienzo de cada nuevo capítulo para que el jugador pueda ver su progreso continuo. El puntaje acumulado afectará las recompensas y desbloqueables disponibles para el jugador a medida que avanza en la historia. |
 
 ## 8. REQUISITOS NO FUNCIONALES
-### RNF1: Usabilidad
-- El juego debe ser intuitivo y fácil de entender para adolescentes de secundaria, con una interfaz de usuario clara y navegación sencilla.
-
-### RNF2: Rendimiento
-- El juego debe funcionar sin problemas en una variedad de dispositivos de hardware comunes, con tiempos de carga rápidos y una jugabilidad fluida.
-
-### RNF3: Seguridad
-- Los datos del usuario, como las puntuaciones y los progresos del juego, deben almacenarse de manera segura y protegidos contra accesos no autorizados.
-
-### RNF4: Estética
-- El juego debe tener un diseño visual atractivo y coherente, con gráficos de alta calidad y una estética apropiada para el tema histórico.
-
-### RNF5: Performance
-- El juego debe tener un rendimiento óptimo en términos de velocidad de respuesta y consumo de recursos, garantizando una experiencia de juego fluida y sin interrupciones.
-
-### RNF6: Adaptabilidad
-- El juego debe ser adaptable a diferentes tamaños de pantalla y resoluciones, desde laptops hasta computadoras de escritorio, sin comprometer la experiencia del usuario.
-
-### RNF7: Mantenibilidad
-- El código del juego debe estar bien estructurado, modularizado y documentado para facilitar futuras actualizaciones, correcciones de errores y mantenimiento general.
-
-### RNF8: Confiabilidad
-- El juego debe ser confiable y estable, con un bajo índice de fallos y errores, garantizando una experiencia de juego consistente y sin interrupciones.
-
-### RNF9: Cumplimiento Normativo
-- El juego debe cumplir con las regulaciones y normativas pertinentes en cuanto a contenido educativo y protección del usuario, especialmente en lo que respecta a la privacidad y seguridad de los datos.
-
-### RNF10: Adaptación Cultural
-- El contenido del juego debe ser culturalmente sensible y respetuoso, evitando estereotipos o representaciones inapropiadas, especialmente en relación con el tema delicado del Holocausto.
-
-### RNF11: Tiempo de Respuesta
-- El tiempo de respuesta del juego, tanto para acciones del jugador como para eventos en el juego, debe ser rápido y eficiente, minimizando cualquier retraso perceptible.
-
-### RNF12: Consumo de Recursos
-- El juego debe optimizar el uso de recursos del sistema, como la memoria RAM, la CPU y el espacio de almacenamiento, para garantizar un rendimiento óptimo en una variedad de dispositivos.
-
+| Número | Requisito                    | Descripción                                                                                     |
+|--------|------------------------------|-------------------------------------------------------------------------------------------------|
+| RNF1   | Usabilidad                   | El juego debe ser intuitivo y fácil de entender para adolescentes de secundaria, con una interfaz de usuario clara y navegación sencilla. |
+| RNF2   | Rendimiento                  | El juego debe funcionar sin problemas en una variedad de dispositivos de hardware comunes, con tiempos de carga rápidos y una jugabilidad fluida. |
+| RNF3   | Seguridad                    | Los datos del usuario, como las puntuaciones y los progresos del juego, deben almacenarse de manera segura y protegidos contra accesos no autorizados. |
+| RNF4   | Estética                     | El juego debe tener un diseño visual atractivo y coherente, con gráficos de alta calidad y una estética apropiada para el tema histórico. |
+| RNF5   | Performance                  | El juego debe tener un rendimiento óptimo en términos de velocidad de respuesta y consumo de recursos, garantizando una experiencia de juego fluida y sin interrupciones. |
+| RNF6   | Adaptabilidad                | El juego debe ser adaptable a diferentes tamaños de pantalla y resoluciones, desde laptops hasta computadoras de escritorio, sin comprometer la experiencia del usuario. |
+| RNF7   | Mantenibilidad               | El código del juego debe estar bien estructurado, modularizado y documentado para facilitar futuras actualizaciones, correcciones de errores y mantenimiento general. |
+| RNF8   | Confiabilidad                | El juego debe ser confiable y estable, con un bajo índice de fallos y errores, garantizando una experiencia de juego consistente y sin interrupciones. |
+| RNF9   | Cumplimiento Normativo       | El juego debe cumplir con las regulaciones y normativas pertinentes en cuanto a contenido educativo y protección del usuario, especialmente en lo que respecta a la privacidad y seguridad de los datos. |
+| RNF10  | Adaptación Cultural          | El contenido del juego debe ser culturalmente sensible y respetuoso, evitando estereotipos o representaciones inapropiadas, especialmente en relación con el tema delicado del Holocausto. |
+| RNF11  | Tiempo de Respuesta          | El tiempo de respuesta del juego, tanto para acciones del jugador como para eventos en el juego, debe ser rápido y eficiente, minimizando cualquier retraso perceptible. |
+| RNF12  | Consumo de Recursos          | El juego debe optimizar el uso de recursos del sistema, como la memoria RAM, la CPU y el espacio de almacenamiento, para garantizar un rendimiento óptimo en una variedad de dispositivos. |
 ## 9. DIAGRAMA DE ENTIDAD - RELACIÓN
 [![Diagrama-Entidad-Relaci-n-Stryker-drawio-1.png](https://i.postimg.cc/d0DRdWf6/Diagrama-Entidad-Relaci-n-Stryker-drawio-1.png)](https://postimg.cc/hJW7R0cQ)
 
@@ -172,6 +150,7 @@ create table chapter (
 ```
 ## 12. DIAGRAMA DEL MODELO DE DATOS
 [![Modelo-de-Datos.png](https://i.postimg.cc/pThScQJ5/Modelo-de-Datos.png)](https://postimg.cc/jwTvL79R)
+
 En este diagrama realizado en el aplicativo de DBeaver con la base de datos postgress, mostramos nuestras tablas o puntos tomados para el almacenamiento de datos como el score, los chapter,
 los enemigos, los players, el cuestionario y por ultimo las respuestas. Cada uno de estos datos son importantes para la indicacion del desarrollo o procedimiento del usuario mientras destaca
 sus habilidades en el juego.
