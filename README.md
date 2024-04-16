@@ -199,48 +199,48 @@ Las caracteristicas son las siguientes:
 
 ## 11. MODELO DE DATOS SQL
 ```sql
-create table question {
+create table question (
     questionID int primary key,
     textQuestion varchar(100),
     playerID int references player(playerID)
-}
+);
 
-create table answer {
+create table answer (
     answerID int primary key,
     answer bool,
     answerText varchar(100),
     questionID int references question(questionID),
-    scoreValue int references score(scoreValue)
-}
+    scoreID int references score(scoreID)
+);
 
-create table player {
+create table player (
     playerID int primary key,
     playerName varchar(50),
     playerPassword varchar(50)
-}
+);
 
-create table enemie {
+create table enemie (
     enemieID int primary key,
     enemieName varchar(50),
     playerID int references player(playerID)    
-}
+);
 
-create table score {
+create table score (
     scoreID int primary key,
     scoreValue int,
     playerID int references player(playerID),
     chapterID int references chapter(chapterID)
-}
+);
 
-create table chapter {
+create table chapter (
     chapterID int primary key,
     chapterName varchar(20),
     description varchar(100),
     playerID int references player(playerID)
-}
+);
 ```
 ## 12. DIAGRAMA DEL MODELO DE DATOS
-[![Untitled.png](https://i.postimg.cc/WbD9L18S/Untitled.png)](https://postimg.cc/Vd89X13b)
+[![Modelo-de-Datos.png](https://i.postimg.cc/pThScQJ5/Modelo-de-Datos.png)](https://postimg.cc/jwTvL79R)
 
 ## 13. MOCKUPS
 ### 13.1 Inicio de Sesión
