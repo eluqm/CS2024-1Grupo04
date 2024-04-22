@@ -18,13 +18,23 @@ try {
 			$player			= $_GET['player'];
 			$score			= $_GET['score'];
 
-			$sql = "INSERT INTO `users` (`id`, `player_name`, `password`, `player`, `score`) VALUES (NULL, '".$player_name."', '".$password."', '".$player."', '".$score."');";
 
-			if ($conexion->query($sql) === TRUE){
-				echo '{"codigo":201, "mensaje":"Usuario creado correctamente!", "respuesta":""}';
+			$sql = "SELECT * FROM `users` WHERE player_name='".$player_name."';";
+
+			$resultado = $conexion->query($sql);
+
+			if ($resultado->num_rows > 0){
+				echo '{"codigo":404, "mensaje":"Ya existe un usuario registrado con ese nombre", "respuesta":"'.$resultado->num_rows.'"}';
 			}else{
-				echo '{"codigo":401, "mensaje":"Error al intentar crear el usuario", "respuesta":""}';
-			}	
+
+				$sql = "INSERT INTO `users` (`id`, `player_name`, `password`, `player`, `score`) VALUES (NULL, '".$player_name."', '".$password."', '".$player."', '".$score."');";
+
+				if ($conexion->query($sql) === TRUE){
+					echo '{"codigo":201, "mensaje":"Usuario creado correctamente!", "respuesta":""}';
+				}else{
+					echo '{"codigo":401, "mensaje":"Error al intentar crear el usuario", "respuesta":""}';
+				}	
+			}
 				
 		}else{
 			echo '{"codigo":402, "mensaje":"Faltan datos para crear el usuario", "respuesta":""}';
