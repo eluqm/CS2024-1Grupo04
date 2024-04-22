@@ -16,3 +16,4 @@ Usos de las funcionalidades:
 
 	conexion()
 	registro_user(player_name, password, player, score)
+	login(player_name,password)
