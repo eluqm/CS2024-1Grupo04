@@ -5,6 +5,8 @@ Códigos de respuesta:
 	201 = Creación de usuario correcta
 	202 = El usuario existe en el sistema
 	203 = El usuario NO existe en el sistema
+	204 = El usuario o la contraseña son incorrectos
+	205 = Inicio de sesión exitoso
 	
 	400 = Error de conexión
 	401 = Error ál crear usuario
