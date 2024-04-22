@@ -30,7 +30,21 @@ try {
 				$sql = "INSERT INTO `users` (`id`, `player_name`, `password`, `player`, `score`) VALUES (NULL, '".$player_name."', '".$password."', '".$player."', '".$score."');";
 
 				if ($conexion->query($sql) === TRUE){
-					echo '{"codigo":201, "mensaje":"Usuario creado correctamente!", "respuesta":""}';
+					$sql = "SELECT * FROM `users` WHERE player_name='".$player_name."';";
+					$resultado = $conexion->query($sql);
+					$texto = '';
+					while ($row = $resultado->fetch_assoc()){
+						$texto = 
+						"{
+						#id#:".$row['id'].", 
+						#player_name#:#".$row['player_name']."#, 
+						#password#:#".$row['password']."#,
+						#player#: ".$row['player'].", 
+						#score#: ".$row['score'].
+						"}";
+					}
+
+					echo '{"codigo":201, "mensaje":"¡Usuario creado correctamente!", "respuesta":"'.$texto.'"}';
 				}else{
 					echo '{"codigo":401, "mensaje":"Error al intentar crear el usuario", "respuesta":""}';
 				}	
