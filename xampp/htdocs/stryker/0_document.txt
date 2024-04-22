@@ -1,0 +1,18 @@
+Para la programación en Unity
+Códigos de respuesta:
+
+	200 = Conexión exitosa
+	201 = Creación de usuario correcta
+	202 = El usuario existe en el sistema
+	203 = El usuario NO existe en el sistema
+	
+	400 = Error de conexión
+	401 = Error ál crear usuario
+	402 = Faltan de datos para crear el usuario
+	403 = Faltan datos para la ejecutar la acción solicitada
+
+
+Usos de las funcionalidades:
+
+	conexion()
+	registro_user(player_name, password, player, score)
