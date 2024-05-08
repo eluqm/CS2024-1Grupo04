@@ -23,6 +23,8 @@ Códigos de respuesta:
 Usos de las funcionalidades:
 
 	conexion() #o también conocido como check()
-	registro_user(player_name, password, player, score) #también conocido como reg_usuario(usuario, pass, jugador, nivel)
-	login(player_name, password) #también conocido como login(usuario, pass)
-	editar_usario(player_name, password, password2, player, score)#también conocido como editar_usario(usuario, pass, pass2, jugador, nivel)
+	registro_user(player_name, password, player, score) 
+	login(player_name, password)
+	editar_usario(player_name, password, password2, player, score)
+	editar_score(id, score)
+	editar_chapter(id, chapter)
