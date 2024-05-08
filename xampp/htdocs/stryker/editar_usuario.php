@@ -8,17 +8,17 @@ try {
 		echo '{"codigo":400, "mensaje":"¡Error de conexión!", "respuesta":""}';
 	} else{
 
-		if (isset($_GET['player_name']) &&
-			isset($_GET['password']) &&
-			isset($_GET['password2']) &&
-			isset($_GET['player']) &&
-			isset($_GET['score'])) {
+		if (isset($_POST['player_name']) &&
+			isset($_POST['password']) &&
+			isset($_POST['password2']) &&
+			isset($_POST['player']) &&
+			isset($_POST['score'])) {
 
-			$player_name 	= $_GET['player_name'];
-			$password		= $_GET['password'];
-			$password2		= $_GET['password2'];
-			$player			= $_GET['player'];
-			$score			= $_GET['score'];
+			$player_name 	= $_POST['player_name'];
+			$password		= $_POST['password'];
+			$password2		= $_POST['password2'];
+			$player			= $_POST['player'];
+			$score			= $_POST['score'];
 
 			$sql = "SELECT * FROM `users` WHERE player_name='".$player_name."' and password='".$password."';";
 			$resultado = $conexion->query($sql);
